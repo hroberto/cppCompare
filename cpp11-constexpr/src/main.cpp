@@ -1,5 +1,4 @@
-// Source = https://www.geeksforgeeks.org/smart-pointers-cpp/
-
+// Source = https://www.geeksforgeeks.org/understanding-constexper-specifier-in-c/
 
 #include <iostream>
 #include <chrono>
@@ -29,7 +28,7 @@ int main(int __argc, char** __argv)
     t1 = lambda_now();
     auto v2 = fib_perform( 50 );
     t2 = lambda_now();
-    std::cout << __LINE__ << " -> result perform = " << v2 << std::endl;
+    std::cout << __LINE__ << " -> result performexp = " << v2 << std::endl;
     std::cout << ">> " << lambda_milisecond( t1, t2 ) << " milisenconds == " << lambda_nanosecond( t1, t2 ) << " nanoseconds " << std::endl;
 
     t1 = lambda_now();
